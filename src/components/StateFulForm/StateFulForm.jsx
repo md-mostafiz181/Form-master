@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./StateFulForm.css"
 
 
 const StateFulForm = () => {
@@ -36,7 +37,7 @@ const StateFulForm = () => {
         
     }
     return (
-        <div>
+        <div className="state-full">
             <h1>Its a state full form</h1>
             <form onSubmit={handleSubmit}>
                 <input

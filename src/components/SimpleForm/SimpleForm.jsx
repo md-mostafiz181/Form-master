@@ -1,4 +1,4 @@
-
+import "./SimpleForm.css"
 
 const SimpleForm = () => {
 
@@ -13,7 +13,7 @@ const SimpleForm = () => {
         
     }
     return (
-        <div>
+        <div className="simple-form">
             <h1>Its a simple form</h1>
             <form onSubmit={handleFormSubmit}>
                 <input type="text" name="name" id="name" placeholder="Name" />
